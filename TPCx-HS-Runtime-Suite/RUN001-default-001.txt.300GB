@@ -1,0 +1,736 @@
+
+[0;32mRunning 1TB test[0m
+[0;32mHSsize is 10000000000[0m
+[0;32mAll Output will be logged to file ./TPCx-HS-result-1TB.log[0m
+
+[0;31mCLUSH NOT INSTALLED for cluster audit report[0m
+[0;31mTo install clush follow USER_GUIDE.txt[0m
+Found 3 items
+drwxr-xr-x   - ec2-user ec2-user          0 2021-02-09 03:14 TPCx-HS-benchmark/HSValidate
+drwxr-xr-x   - ec2-user ec2-user          0 2021-02-09 02:53 TPCx-HS-benchmark/HSsort-input
+drwxr-xr-x   - ec2-user ec2-user          0 2021-02-09 03:11 TPCx-HS-benchmark/HSsort-output
+[0;32m===================================[0m
+[0;32mDeleting Previous Data - Start - Tue Feb  9 04:03:33 UTC 2021[0m
+Deleted /user/ec2-user/TPCx-HS-benchmark/HSValidate
+Deleted /user/ec2-user/TPCx-HS-benchmark/HSsort-input
+Deleted /user/ec2-user/TPCx-HS-benchmark/HSsort-output
+[0;32mDeleting Previous Data - End - Tue Feb  9 04:04:36 UTC 2021[0m
+[0;32m===================================[0m
+
+
+[0;32m===================================[0m
+[0;32m Running BigData TPCx-HS Benchmark Suite (MapReduce) - Run 1 - Epoch 1612843476 [0m
+[0;32m TPCx-HS Version 2.0.3 [0m
+[0;32m===================================[0m
+
+[0;32mStarting HSGen Run 1 (output being written to ./logs/HSgen-time-run1.txt)[0m
+
+2021-02-09 04:04:37,719 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at hd1/10.0.9.11:8032
+2021-02-09 04:04:37,964 INFO mapreduce.JobResourceUploader: Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/ec2-user/.staging/job_1612831540616_0080
+2021-02-09 04:04:38,132 INFO HSSort: Generating 10000000000 using 379
+2021-02-09 04:04:38,171 INFO mapreduce.JobSubmitter: number of splits:379
+2021-02-09 04:04:38,194 INFO Configuration.deprecation: mapred.reduce.tasks is deprecated. Instead, use mapreduce.job.reduces
+2021-02-09 04:04:38,195 INFO Configuration.deprecation: mapred.map.tasks is deprecated. Instead, use mapreduce.job.maps
+2021-02-09 04:04:38,260 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1612831540616_0080
+2021-02-09 04:04:38,260 INFO mapreduce.JobSubmitter: Executing with tokens: []
+2021-02-09 04:04:38,389 INFO conf.Configuration: resource-types.xml not found
+2021-02-09 04:04:38,389 INFO resource.ResourceUtils: Unable to find 'resource-types.xml'.
+2021-02-09 04:04:38,435 INFO impl.YarnClientImpl: Submitted application application_1612831540616_0080
+2021-02-09 04:04:38,463 INFO mapreduce.Job: The url to track the job: http://hd1:8088/proxy/application_1612831540616_0080/
+2021-02-09 04:04:38,463 INFO mapreduce.Job: Running job: job_1612831540616_0080
+2021-02-09 04:04:43,517 INFO mapreduce.Job: Job job_1612831540616_0080 running in uber mode : false
+2021-02-09 04:04:43,517 INFO mapreduce.Job:  map 0% reduce 0%
+2021-02-09 04:05:00,808 INFO mapreduce.Job:  map 1% reduce 0%
+2021-02-09 04:05:12,897 INFO mapreduce.Job:  map 2% reduce 0%
+2021-02-09 04:05:40,992 INFO mapreduce.Job:  map 3% reduce 0%
+2021-02-09 04:06:09,084 INFO mapreduce.Job:  map 4% reduce 0%
+2021-02-09 04:06:35,170 INFO mapreduce.Job:  map 5% reduce 0%
+2021-02-09 04:07:02,251 INFO mapreduce.Job:  map 6% reduce 0%
+2021-02-09 04:07:28,329 INFO mapreduce.Job:  map 7% reduce 0%
+2021-02-09 04:07:54,406 INFO mapreduce.Job:  map 8% reduce 0%
+2021-02-09 04:08:18,474 INFO mapreduce.Job:  map 9% reduce 0%
+2021-02-09 04:08:41,537 INFO mapreduce.Job:  map 10% reduce 0%
+2021-02-09 04:09:07,607 INFO mapreduce.Job:  map 11% reduce 0%
+2021-02-09 04:09:35,681 INFO mapreduce.Job:  map 12% reduce 0%
+2021-02-09 04:09:59,740 INFO mapreduce.Job:  map 13% reduce 0%
+2021-02-09 04:10:24,816 INFO mapreduce.Job:  map 14% reduce 0%
+2021-02-09 04:10:51,881 INFO mapreduce.Job:  map 15% reduce 0%
+2021-02-09 04:11:15,941 INFO mapreduce.Job:  map 16% reduce 0%
+2021-02-09 04:11:43,006 INFO mapreduce.Job:  map 17% reduce 0%
+2021-02-09 04:12:07,064 INFO mapreduce.Job:  map 18% reduce 0%
+2021-02-09 04:12:32,133 INFO mapreduce.Job:  map 19% reduce 0%
+2021-02-09 04:12:57,198 INFO mapreduce.Job:  map 20% reduce 0%
+2021-02-09 04:13:22,260 INFO mapreduce.Job:  map 21% reduce 0%
+2021-02-09 04:13:48,336 INFO mapreduce.Job:  map 22% reduce 0%
+2021-02-09 04:14:14,396 INFO mapreduce.Job:  map 23% reduce 0%
+2021-02-09 04:14:41,459 INFO mapreduce.Job:  map 24% reduce 0%
+2021-02-09 04:15:06,517 INFO mapreduce.Job:  map 25% reduce 0%
+2021-02-09 04:15:32,585 INFO mapreduce.Job:  map 26% reduce 0%
+2021-02-09 04:15:59,654 INFO mapreduce.Job:  map 27% reduce 0%
+2021-02-09 04:16:26,713 INFO mapreduce.Job:  map 28% reduce 0%
+2021-02-09 04:16:51,768 INFO mapreduce.Job:  map 29% reduce 0%
+2021-02-09 04:17:18,828 INFO mapreduce.Job:  map 30% reduce 0%
+2021-02-09 04:17:43,885 INFO mapreduce.Job:  map 31% reduce 0%
+2021-02-09 04:18:08,940 INFO mapreduce.Job:  map 32% reduce 0%
+2021-02-09 04:18:33,995 INFO mapreduce.Job:  map 33% reduce 0%
+2021-02-09 04:19:01,057 INFO mapreduce.Job:  map 34% reduce 0%
+2021-02-09 04:19:26,111 INFO mapreduce.Job:  map 35% reduce 0%
+2021-02-09 04:19:51,165 INFO mapreduce.Job:  map 36% reduce 0%
+2021-02-09 04:20:15,218 INFO mapreduce.Job:  map 37% reduce 0%
+2021-02-09 04:20:40,274 INFO mapreduce.Job:  map 38% reduce 0%
+2021-02-09 04:21:05,348 INFO mapreduce.Job:  map 39% reduce 0%
+2021-02-09 04:21:31,406 INFO mapreduce.Job:  map 40% reduce 0%
+2021-02-09 04:21:57,565 INFO mapreduce.Job:  map 41% reduce 0%
+2021-02-09 04:22:23,623 INFO mapreduce.Job:  map 42% reduce 0%
+2021-02-09 04:22:50,684 INFO mapreduce.Job:  map 43% reduce 0%
+2021-02-09 04:23:15,741 INFO mapreduce.Job:  map 44% reduce 0%
+2021-02-09 04:23:41,798 INFO mapreduce.Job:  map 45% reduce 0%
+2021-02-09 04:24:06,849 INFO mapreduce.Job:  map 46% reduce 0%
+2021-02-09 04:24:33,906 INFO mapreduce.Job:  map 47% reduce 0%
+2021-02-09 04:24:59,961 INFO mapreduce.Job:  map 48% reduce 0%
+2021-02-09 04:25:27,020 INFO mapreduce.Job:  map 49% reduce 0%
+2021-02-09 04:25:53,073 INFO mapreduce.Job:  map 50% reduce 0%
+2021-02-09 04:26:19,125 INFO mapreduce.Job:  map 51% reduce 0%
+2021-02-09 04:26:45,177 INFO mapreduce.Job:  map 52% reduce 0%
+2021-02-09 04:27:11,231 INFO mapreduce.Job:  map 53% reduce 0%
+2021-02-09 04:27:37,285 INFO mapreduce.Job:  map 54% reduce 0%
+2021-02-09 04:28:01,334 INFO mapreduce.Job:  map 55% reduce 0%
+2021-02-09 04:28:28,389 INFO mapreduce.Job:  map 56% reduce 0%
+2021-02-09 04:28:51,439 INFO mapreduce.Job:  map 57% reduce 0%
+2021-02-09 04:29:19,495 INFO mapreduce.Job:  map 58% reduce 0%
+2021-02-09 04:29:44,548 INFO mapreduce.Job:  map 59% reduce 0%
+2021-02-09 04:30:10,601 INFO mapreduce.Job:  map 60% reduce 0%
+2021-02-09 04:30:36,660 INFO mapreduce.Job:  map 61% reduce 0%
+2021-02-09 04:31:02,750 INFO mapreduce.Job:  map 62% reduce 0%
+2021-02-09 04:31:28,803 INFO mapreduce.Job:  map 63% reduce 0%
+2021-02-09 04:31:55,884 INFO mapreduce.Job:  map 64% reduce 0%
+2021-02-09 04:32:20,940 INFO mapreduce.Job:  map 65% reduce 0%
+2021-02-09 04:32:47,998 INFO mapreduce.Job:  map 66% reduce 0%
+2021-02-09 04:33:11,047 INFO mapreduce.Job:  map 67% reduce 0%
+2021-02-09 04:33:39,105 INFO mapreduce.Job:  map 68% reduce 0%
+2021-02-09 04:34:04,155 INFO mapreduce.Job:  map 69% reduce 0%
+2021-02-09 04:34:31,210 INFO mapreduce.Job:  map 70% reduce 0%
+2021-02-09 04:34:56,260 INFO mapreduce.Job:  map 71% reduce 0%
+2021-02-09 04:35:21,309 INFO mapreduce.Job:  map 72% reduce 0%
+2021-02-09 04:35:48,367 INFO mapreduce.Job:  map 73% reduce 0%
+2021-02-09 04:36:14,417 INFO mapreduce.Job:  map 74% reduce 0%
+2021-02-09 04:36:39,468 INFO mapreduce.Job:  map 75% reduce 0%
+2021-02-09 04:37:06,519 INFO mapreduce.Job:  map 76% reduce 0%
+2021-02-09 04:37:31,577 INFO mapreduce.Job:  map 77% reduce 0%
+2021-02-09 04:37:57,624 INFO mapreduce.Job:  map 78% reduce 0%
+2021-02-09 04:38:20,669 INFO mapreduce.Job:  map 79% reduce 0%
+2021-02-09 04:38:44,713 INFO mapreduce.Job:  map 80% reduce 0%
+2021-02-09 04:39:09,760 INFO mapreduce.Job:  map 81% reduce 0%
+2021-02-09 04:39:36,814 INFO mapreduce.Job:  map 82% reduce 0%
+2021-02-09 04:40:02,869 INFO mapreduce.Job:  map 83% reduce 0%
+2021-02-09 04:40:28,920 INFO mapreduce.Job:  map 84% reduce 0%
+2021-02-09 04:40:54,979 INFO mapreduce.Job:  map 85% reduce 0%
+2021-02-09 04:41:19,043 INFO mapreduce.Job:  map 86% reduce 0%
+2021-02-09 04:41:45,091 INFO mapreduce.Job:  map 87% reduce 0%
+2021-02-09 04:42:09,135 INFO mapreduce.Job:  map 88% reduce 0%
+2021-02-09 04:42:37,187 INFO mapreduce.Job:  map 89% reduce 0%
+2021-02-09 04:43:02,234 INFO mapreduce.Job:  map 90% reduce 0%
+2021-02-09 04:43:30,283 INFO mapreduce.Job:  map 91% reduce 0%
+2021-02-09 04:43:56,329 INFO mapreduce.Job:  map 92% reduce 0%
+2021-02-09 04:44:22,376 INFO mapreduce.Job:  map 93% reduce 0%
+2021-02-09 04:44:47,421 INFO mapreduce.Job:  map 94% reduce 0%
+2021-02-09 04:45:13,470 INFO mapreduce.Job:  map 95% reduce 0%
+2021-02-09 04:45:43,528 INFO mapreduce.Job:  map 96% reduce 0%
+2021-02-09 04:46:11,578 INFO mapreduce.Job:  map 97% reduce 0%
+2021-02-09 04:46:42,630 INFO mapreduce.Job:  map 98% reduce 0%
+2021-02-09 04:47:11,681 INFO mapreduce.Job:  map 99% reduce 0%
+2021-02-09 04:47:46,745 INFO mapreduce.Job:  map 100% reduce 0%
+2021-02-09 04:48:03,776 INFO mapreduce.Job: Job job_1612831540616_0080 completed successfully
+2021-02-09 04:48:03,854 INFO mapreduce.Job: Counters: 35
+	File System Counters
+		FILE: Number of bytes read=0
+		FILE: Number of bytes written=100104402
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=18783
+		HDFS: Number of bytes written=1000000000000
+		HDFS: Number of read operations=2274
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=758
+		HDFS: Number of bytes read erasure-coded=0
+	Job Counters 
+		Killed map tasks=3
+		Launched map tasks=382
+		Other local map tasks=382
+		Total time spent by all maps in occupied slots (ms)=203810386
+		Total time spent by all reduces in occupied slots (ms)=0
+		Total time spent by all map tasks (ms)=203810386
+		Total vcore-milliseconds taken by all map tasks=203810386
+		Total megabyte-milliseconds taken by all map tasks=208701835264
+	Map-Reduce Framework
+		Map input records=10000000000
+		Map output records=10000000000
+		Input split bytes=18783
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=67394
+		CPU time spent (ms)=10973070
+		Physical memory (bytes) snapshot=111259746304
+		Virtual memory (bytes) snapshot=958979637248
+		Total committed heap usage (bytes)=108167430144
+		Peak Map Physical memory (bytes)=430178304
+		Peak Map Virtual memory (bytes)=2539978752
+	HSGen$Counters
+		CHECKSUM=3028416809717741100
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=1000000000000
+
+real	43m27.611s
+user	0m8.334s
+sys	0m0.618s
+
+
+[0;32m======== HSgen Result SUCCESS ========[0m
+[0;32m======== Time taken by HSGen = 43m27.611s====[0m
+
+
+
+[0;32mListing HSGen output [0m
+
+-rw-r--r--   2 ec2-user ec2-user          0 2021-02-09 04:48 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/_SUCCESS
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:11 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00000
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:10 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00001
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:11 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00002
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:11 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00003
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:10 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00004
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:11 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00005
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:11 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00006
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:12 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00007
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:12 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00008
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:12 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00009
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:12 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00010
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:12 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00011
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:12 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00012
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:11 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00013
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:13 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00014
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:13 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00015
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:13 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00016
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:14 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00017
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:13 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00018
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:13 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00019
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:14 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00020
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:13 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00021
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:12 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00022
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:14 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00023
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:12 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00024
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:14 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00025
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:14 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00026
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:13 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00027
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:13 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00028
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:15 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00029
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:14 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00030
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:12 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00031
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:15 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00032
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:13 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00033
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:14 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00034
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:14 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00035
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:14 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00036
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:12 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00037
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:15 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00038
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:13 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00039
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:12 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00040
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:15 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00041
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:15 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00042
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:14 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00043
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:14 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00044
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:13 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00045
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:13 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00046
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:15 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00047
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:14 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00048
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:13 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00049
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:15 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00050
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:13 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00051
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:13 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00052
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:14 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00053
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:14 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00054
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:14 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00055
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:15 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00056
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:15 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00057
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:13 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00058
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:15 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00059
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:13 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00060
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:13 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00061
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:15 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00062
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:13 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00063
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:14 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00064
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:15 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00065
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:13 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00066
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:14 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00067
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:15 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00068
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:14 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00069
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:13 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00070
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:15 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00071
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:14 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00072
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:15 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00073
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:15 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00074
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:13 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00075
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:14 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00076
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:15 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00077
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:14 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00078
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:15 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00079
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:15 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00080
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:15 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00081
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:18 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00082
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:19 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00083
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:21 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00084
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:20 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00085
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:20 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00086
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:21 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00087
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:21 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00088
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:20 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00089
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:21 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00090
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:22 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00091
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:20 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00092
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:21 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00093
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:20 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00094
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:21 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00095
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:20 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00096
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:21 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00097
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:21 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00098
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:23 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00099
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:21 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00100
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:22 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00101
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:22 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00102
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:22 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00103
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:22 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00104
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:21 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00105
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:21 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00106
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:22 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00107
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:22 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00108
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:21 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00109
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:23 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00110
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:22 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00111
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:22 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00112
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:23 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00113
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:22 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00114
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:22 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00115
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:22 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00116
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:22 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00117
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:21 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00118
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:22 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00119
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:23 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00120
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:22 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00121
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:22 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00122
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:23 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00123
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:22 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00124
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:22 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00125
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:22 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00126
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:24 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00127
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:22 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00128
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:22 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00129
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:22 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00130
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:24 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00131
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:22 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00132
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:24 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00133
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:24 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00134
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:23 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00135
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:23 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00136
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:23 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00137
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:23 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00138
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:23 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00139
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:22 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00140
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:24 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00141
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:25 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00142
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:24 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00143
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:24 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00144
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:25 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00145
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:23 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00146
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:25 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00147
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:25 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00148
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:25 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00149
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:25 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00150
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:24 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00151
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:23 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00152
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:25 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00153
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:25 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00154
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:25 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00155
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:25 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00156
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:25 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00157
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:25 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00158
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:25 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00159
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:25 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00160
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:25 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00161
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:25 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00162
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:25 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00163
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:28 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00164
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:28 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00165
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:29 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00166
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:29 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00167
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:29 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00168
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:30 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00169
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:30 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00170
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:30 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00171
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:29 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00172
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:29 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00173
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:29 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00174
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:30 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00175
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:30 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00176
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:29 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00177
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:30 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00178
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:32 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00179
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:30 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00180
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:30 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00181
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:30 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00182
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:32 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00183
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:30 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00184
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:31 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00185
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:31 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00186
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:28 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00187
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:30 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00188
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:31 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00189
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:31 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00190
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:30 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00191
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:30 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00192
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:32 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00193
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:30 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00194
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:31 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00195
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:32 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00196
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:32 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00197
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:31 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00198
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:30 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00199
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:33 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00200
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:32 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00201
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:31 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00202
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:31 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00203
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:31 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00204
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:31 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00205
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:30 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00206
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:31 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00207
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:32 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00208
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:32 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00209
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:33 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00210
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:30 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00211
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:31 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00212
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:32 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00213
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:30 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00214
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:32 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00215
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:32 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00216
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:34 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00217
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:31 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00218
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:31 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00219
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:34 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00220
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:34 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00221
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:35 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00222
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:34 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00223
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:35 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00224
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:35 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00225
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:35 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00226
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:35 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00227
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:35 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00228
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:35 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00229
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:35 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00230
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:35 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00231
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:36 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00232
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:35 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00233
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:36 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00234
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:36 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00235
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:36 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00236
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:36 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00237
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:36 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00238
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:36 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00239
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:36 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00240
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:36 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00241
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:36 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00242
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:36 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00243
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:36 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00244
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:36 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00245
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:35 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00246
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:37 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00247
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:37 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00248
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:39 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00249
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:37 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00250
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:37 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00251
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:38 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00252
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:38 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00253
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:38 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00254
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:38 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00255
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:39 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00256
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:39 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00257
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:39 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00258
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:39 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00259
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:39 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00260
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:39 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00261
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:39 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00262
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:40 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00263
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:39 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00264
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:38 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00265
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:39 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00266
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:39 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00267
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:38 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00268
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:39 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00269
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:39 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00270
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:40 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00271
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:40 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00272
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:39 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00273
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:40 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00274
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:40 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00275
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:39 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00276
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:40 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00277
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:40 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00278
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:40 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00279
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:40 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00280
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:40 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00281
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:40 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00282
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:40 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00283
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:40 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00284
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:41 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00285
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:40 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00286
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:40 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00287
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:40 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00288
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:40 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00289
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:42 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00290
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:42 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00291
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:42 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00292
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:40 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00293
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:40 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00294
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:40 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00295
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:41 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00296
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:42 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00297
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:42 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00298
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:42 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00299
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:42 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00300
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:43 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00301
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:43 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00302
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:44 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00303
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:44 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00304
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:44 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00305
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:44 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00306
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:44 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00307
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:44 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00308
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:44 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00309
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:44 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00310
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:44 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00311
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:44 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00312
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:45 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00313
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:44 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00314
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:45 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00315
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:45 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00316
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:45 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00317
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:45 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00318
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:44 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00319
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:45 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00320
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:45 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00321
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:45 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00322
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:44 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00323
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:45 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00324
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:44 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00325
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:45 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00326
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:44 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00327
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:45 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00328
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:46 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00329
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:45 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00330
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:45 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00331
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:46 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00332
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:46 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00333
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:47 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00334
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:45 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00335
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:47 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00336
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:46 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00337
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:46 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00338
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:47 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00339
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:47 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00340
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:46 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00341
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:47 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00342
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:46 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00343
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:47 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00344
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:46 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00345
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:47 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00346
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:47 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00347
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:47 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00348
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:46 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00349
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:47 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00350
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:47 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00351
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:47 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00352
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:47 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00353
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:47 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00354
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:47 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00355
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:47 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00356
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:47 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00357
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:47 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00358
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:47 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00359
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:47 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00360
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:47 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00361
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:47 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00362
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:47 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00363
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:47 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00364
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:47 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00365
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:47 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00366
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:47 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00367
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:48 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00368
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:48 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00369
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:47 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00370
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:47 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00371
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:47 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00372
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:47 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00373
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:47 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00374
+-rw-r--r--   2 ec2-user ec2-user 2638522500 2021-02-09 04:48 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00375
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:47 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00376
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:47 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00377
+-rw-r--r--   2 ec2-user ec2-user 2638522400 2021-02-09 04:47 /user/ec2-user/TPCx-HS-benchmark/HSsort-input/part-m-00378
+
+
+
+[0;32mStarting HSSort Run 1 (output being written to ./logs/HSsort-time-run1.txt)[0m
+
+2021-02-09 04:48:06,250 INFO HSSort: starting
+2021-02-09 04:48:07,202 INFO input.FileInputFormat: Total input files to process : 379
+Spent 386ms computing base-splits.
+Spent 20ms computing HSScheduler splits.
+Computing input splits took 407ms
+Sampling 10 splits of 7580
+Making 187 from 100000 sampled records
+Computing parititions took 337ms
+Spent 746ms computing partitions.
+2021-02-09 04:48:07,633 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at hd1/10.0.9.11:8032
+2021-02-09 04:48:07,837 INFO mapreduce.JobResourceUploader: Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/ec2-user/.staging/job_1612831540616_0084
+2021-02-09 04:48:07,946 INFO mapreduce.JobSubmitter: number of splits:7580
+2021-02-09 04:48:07,969 INFO Configuration.deprecation: mapred.reduce.tasks is deprecated. Instead, use mapreduce.job.reduces
+2021-02-09 04:48:07,969 INFO Configuration.deprecation: mapred.map.tasks is deprecated. Instead, use mapreduce.job.maps
+2021-02-09 04:48:08,034 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1612831540616_0084
+2021-02-09 04:48:08,034 INFO mapreduce.JobSubmitter: Executing with tokens: []
+2021-02-09 04:48:08,158 INFO conf.Configuration: resource-types.xml not found
+2021-02-09 04:48:08,158 INFO resource.ResourceUtils: Unable to find 'resource-types.xml'.
+2021-02-09 04:48:08,204 INFO impl.YarnClientImpl: Submitted application application_1612831540616_0084
+2021-02-09 04:48:08,231 INFO mapreduce.Job: The url to track the job: http://hd1:8088/proxy/application_1612831540616_0084/
+2021-02-09 04:48:08,231 INFO mapreduce.Job: Running job: job_1612831540616_0084
+2021-02-09 04:48:14,315 INFO mapreduce.Job: Job job_1612831540616_0084 running in uber mode : false
+2021-02-09 04:48:14,316 INFO mapreduce.Job:  map 0% reduce 0%
+2021-02-09 04:48:42,098 INFO mapreduce.Job:  map 1% reduce 0%
+2021-02-09 04:49:12,039 INFO mapreduce.Job:  map 2% reduce 0%
+2021-02-09 04:49:40,828 INFO mapreduce.Job:  map 3% reduce 0%
+2021-02-09 04:50:09,740 INFO mapreduce.Job:  map 4% reduce 0%
+2021-02-09 04:50:45,326 INFO mapreduce.Job:  map 5% reduce 0%
+2021-02-09 04:51:19,077 INFO mapreduce.Job:  map 6% reduce 0%
+2021-02-09 04:51:58,936 INFO mapreduce.Job:  map 7% reduce 0%
+2021-02-09 04:52:35,645 INFO mapreduce.Job:  map 8% reduce 0%
+2021-02-09 04:53:07,437 INFO mapreduce.Job:  map 9% reduce 0%
+2021-02-09 04:53:42,206 INFO mapreduce.Job:  map 10% reduce 0%
+2021-02-09 04:54:16,761 INFO mapreduce.Job:  map 11% reduce 0%
+2021-02-09 04:54:55,499 INFO mapreduce.Job:  map 12% reduce 0%
+2021-02-09 04:55:28,063 INFO mapreduce.Job:  map 13% reduce 0%
+2021-02-09 04:56:08,937 INFO mapreduce.Job:  map 14% reduce 0%
+2021-02-09 04:56:43,835 INFO mapreduce.Job:  map 15% reduce 0%
+2021-02-09 04:57:19,607 INFO mapreduce.Job:  map 16% reduce 0%
+2021-02-09 04:57:53,331 INFO mapreduce.Job:  map 17% reduce 0%
+2021-02-09 04:58:28,119 INFO mapreduce.Job:  map 18% reduce 0%
+2021-02-09 04:59:02,856 INFO mapreduce.Job:  map 19% reduce 0%
+2021-02-09 04:59:45,570 INFO mapreduce.Job:  map 20% reduce 0%
+2021-02-09 04:59:54,760 INFO mapreduce.Job:  map 20% reduce 1%
+2021-02-09 05:00:31,286 INFO mapreduce.Job:  map 21% reduce 1%
+2021-02-09 05:01:13,080 INFO mapreduce.Job:  map 22% reduce 1%
+2021-02-09 05:01:50,848 INFO mapreduce.Job:  map 23% reduce 1%
+2021-02-09 05:02:27,705 INFO mapreduce.Job:  map 24% reduce 1%
+2021-02-09 05:03:10,314 INFO mapreduce.Job:  map 25% reduce 1%
+2021-02-09 05:03:49,209 INFO mapreduce.Job:  map 26% reduce 1%
+2021-02-09 05:04:29,114 INFO mapreduce.Job:  map 27% reduce 1%
+2021-02-09 05:05:11,735 INFO mapreduce.Job:  map 28% reduce 1%
+2021-02-09 05:05:53,444 INFO mapreduce.Job:  map 29% reduce 1%
+2021-02-09 05:06:29,137 INFO mapreduce.Job:  map 30% reduce 1%
+2021-02-09 05:07:13,929 INFO mapreduce.Job:  map 31% reduce 1%
+2021-02-09 05:07:58,720 INFO mapreduce.Job:  map 32% reduce 1%
+2021-02-09 05:08:45,484 INFO mapreduce.Job:  map 33% reduce 1%
+2021-02-09 05:09:29,133 INFO mapreduce.Job:  map 34% reduce 1%
+2021-02-09 05:09:30,142 INFO mapreduce.Job:  map 34% reduce 2%
+2021-02-09 05:10:12,849 INFO mapreduce.Job:  map 35% reduce 2%
+2021-02-09 05:10:54,688 INFO mapreduce.Job:  map 36% reduce 2%
+2021-02-09 05:11:33,354 INFO mapreduce.Job:  map 37% reduce 2%
+2021-02-09 05:12:21,050 INFO mapreduce.Job:  map 38% reduce 2%
+2021-02-09 05:13:05,926 INFO mapreduce.Job:  map 39% reduce 2%
+2021-02-09 05:13:53,504 INFO mapreduce.Job:  map 40% reduce 2%
+2021-02-09 05:14:39,169 INFO mapreduce.Job:  map 41% reduce 2%
+2021-02-09 05:15:23,977 INFO mapreduce.Job:  map 42% reduce 2%
+2021-02-09 05:16:09,569 INFO mapreduce.Job:  map 43% reduce 2%
+2021-02-09 05:16:29,771 INFO mapreduce.Job:  map 43% reduce 3%
+2021-02-09 05:16:52,089 INFO mapreduce.Job:  map 44% reduce 3%
+2021-02-09 05:17:37,830 INFO mapreduce.Job:  map 45% reduce 3%
+2021-02-09 05:18:26,512 INFO mapreduce.Job:  map 46% reduce 3%
+2021-02-09 05:19:11,997 INFO mapreduce.Job:  map 47% reduce 3%
+2021-02-09 05:19:58,463 INFO mapreduce.Job:  map 48% reduce 3%
+2021-02-09 05:20:47,079 INFO mapreduce.Job:  map 49% reduce 3%
+2021-02-09 05:21:32,662 INFO mapreduce.Job:  map 50% reduce 3%
+2021-02-09 05:22:26,627 INFO mapreduce.Job:  map 51% reduce 3%
+2021-02-09 05:22:29,674 INFO mapreduce.Job:  map 51% reduce 4%
+2021-02-09 05:23:16,286 INFO mapreduce.Job:  map 52% reduce 4%
+2021-02-09 05:23:43,750 INFO mapreduce.Job:  map 46% reduce 3%
+2021-02-09 05:23:44,760 INFO mapreduce.Job:  map 35% reduce 3%
+2021-02-09 05:24:31,520 INFO mapreduce.Job:  map 36% reduce 3%
+2021-02-09 05:25:17,587 INFO mapreduce.Job:  map 37% reduce 3%
+2021-02-09 05:47:18,362 INFO retry.RetryInvocationHandler: java.io.EOFException: End of File Exception between local host is: "hd1/10.0.9.11"; destination host is: "hd1":8032; : java.io.EOFException; For more details see:  http://wiki.apache.org/hadoop/EOFException, while invoking ApplicationClientProtocolPBClientImpl.getApplicationReport over null. Trying to failover immediately.
+2021-02-09 05:47:19,363 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:47:20,364 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:47:21,364 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:47:22,365 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:47:23,365 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:47:24,366 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:47:25,366 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:47:26,366 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:47:27,367 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:47:28,367 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:47:28,368 INFO retry.RetryInvocationHandler: java.net.ConnectException: Call From hd1/10.0.9.11 to hd1:8032 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused, while invoking ApplicationClientProtocolPBClientImpl.getApplicationReport over null after 1 failover attempts. Trying to failover after sleeping for 18534ms.
+2021-02-09 05:47:47,903 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:47:48,903 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:47:49,904 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:47:50,904 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:47:51,905 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:47:52,905 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:47:53,906 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:47:54,906 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:47:55,906 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:47:56,907 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:47:56,907 INFO retry.RetryInvocationHandler: java.net.ConnectException: Call From hd1/10.0.9.11 to hd1:8032 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused, while invoking ApplicationClientProtocolPBClientImpl.getApplicationReport over null after 2 failover attempts. Trying to failover after sleeping for 15442ms.
+2021-02-09 05:48:13,350 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:48:14,350 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:48:15,351 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:48:16,351 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:48:17,352 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:48:18,352 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:48:19,352 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:48:20,353 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:48:21,353 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:48:22,354 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:48:22,354 INFO retry.RetryInvocationHandler: java.net.ConnectException: Call From hd1/10.0.9.11 to hd1:8032 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused, while invoking ApplicationClientProtocolPBClientImpl.getApplicationReport over null after 3 failover attempts. Trying to failover after sleeping for 25944ms.
+2021-02-09 05:48:49,299 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:48:50,300 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:48:51,300 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:48:52,300 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:48:53,301 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:48:54,301 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:48:55,302 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:48:56,302 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:48:57,302 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:48:58,303 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:48:58,303 INFO retry.RetryInvocationHandler: java.net.ConnectException: Call From hd1/10.0.9.11 to hd1:8032 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused, while invoking ApplicationClientProtocolPBClientImpl.getApplicationReport over null after 4 failover attempts. Trying to failover after sleeping for 20236ms.
+2021-02-09 05:49:19,540 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:49:20,541 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:49:21,541 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:49:22,541 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:49:23,542 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:49:24,542 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:49:25,543 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:49:26,543 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:49:27,544 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:49:28,544 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:49:28,545 INFO retry.RetryInvocationHandler: java.net.ConnectException: Call From hd1/10.0.9.11 to hd1:8032 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused, while invoking ApplicationClientProtocolPBClientImpl.getApplicationReport over null after 5 failover attempts. Trying to failover after sleeping for 32219ms.
+2021-02-09 05:50:01,764 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:50:02,765 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:50:03,765 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:50:04,766 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:50:05,766 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:50:06,767 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:50:07,767 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:50:08,767 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:50:09,768 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:50:10,768 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:50:10,769 INFO retry.RetryInvocationHandler: java.net.ConnectException: Call From hd1/10.0.9.11 to hd1:8032 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused, while invoking ApplicationClientProtocolPBClientImpl.getApplicationReport over null after 6 failover attempts. Trying to failover after sleeping for 29351ms.
+2021-02-09 05:50:41,120 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:50:42,121 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:50:43,121 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)

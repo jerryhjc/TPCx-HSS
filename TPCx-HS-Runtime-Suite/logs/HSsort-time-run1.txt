@@ -1,0 +1,146 @@
+2021-02-09 04:48:06,250 INFO HSSort: starting
+2021-02-09 04:48:07,202 INFO input.FileInputFormat: Total input files to process : 379
+2021-02-09 04:48:07,633 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at hd1/10.0.9.11:8032
+2021-02-09 04:48:07,837 INFO mapreduce.JobResourceUploader: Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/ec2-user/.staging/job_1612831540616_0084
+2021-02-09 04:48:07,946 INFO mapreduce.JobSubmitter: number of splits:7580
+2021-02-09 04:48:07,969 INFO Configuration.deprecation: mapred.reduce.tasks is deprecated. Instead, use mapreduce.job.reduces
+2021-02-09 04:48:07,969 INFO Configuration.deprecation: mapred.map.tasks is deprecated. Instead, use mapreduce.job.maps
+2021-02-09 04:48:08,034 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1612831540616_0084
+2021-02-09 04:48:08,034 INFO mapreduce.JobSubmitter: Executing with tokens: []
+2021-02-09 04:48:08,158 INFO conf.Configuration: resource-types.xml not found
+2021-02-09 04:48:08,158 INFO resource.ResourceUtils: Unable to find 'resource-types.xml'.
+2021-02-09 04:48:08,204 INFO impl.YarnClientImpl: Submitted application application_1612831540616_0084
+2021-02-09 04:48:08,231 INFO mapreduce.Job: The url to track the job: http://hd1:8088/proxy/application_1612831540616_0084/
+2021-02-09 04:48:08,231 INFO mapreduce.Job: Running job: job_1612831540616_0084
+2021-02-09 04:48:14,315 INFO mapreduce.Job: Job job_1612831540616_0084 running in uber mode : false
+2021-02-09 04:48:14,316 INFO mapreduce.Job:  map 0% reduce 0%
+2021-02-09 04:48:42,098 INFO mapreduce.Job:  map 1% reduce 0%
+2021-02-09 04:49:12,039 INFO mapreduce.Job:  map 2% reduce 0%
+2021-02-09 04:49:40,828 INFO mapreduce.Job:  map 3% reduce 0%
+2021-02-09 04:50:09,740 INFO mapreduce.Job:  map 4% reduce 0%
+2021-02-09 04:50:45,326 INFO mapreduce.Job:  map 5% reduce 0%
+2021-02-09 04:51:19,077 INFO mapreduce.Job:  map 6% reduce 0%
+2021-02-09 04:51:58,936 INFO mapreduce.Job:  map 7% reduce 0%
+2021-02-09 04:52:35,645 INFO mapreduce.Job:  map 8% reduce 0%
+2021-02-09 04:53:07,437 INFO mapreduce.Job:  map 9% reduce 0%
+2021-02-09 04:53:42,206 INFO mapreduce.Job:  map 10% reduce 0%
+2021-02-09 04:54:16,761 INFO mapreduce.Job:  map 11% reduce 0%
+2021-02-09 04:54:55,499 INFO mapreduce.Job:  map 12% reduce 0%
+2021-02-09 04:55:28,063 INFO mapreduce.Job:  map 13% reduce 0%
+2021-02-09 04:56:08,937 INFO mapreduce.Job:  map 14% reduce 0%
+2021-02-09 04:56:43,835 INFO mapreduce.Job:  map 15% reduce 0%
+2021-02-09 04:57:19,607 INFO mapreduce.Job:  map 16% reduce 0%
+2021-02-09 04:57:53,331 INFO mapreduce.Job:  map 17% reduce 0%
+2021-02-09 04:58:28,119 INFO mapreduce.Job:  map 18% reduce 0%
+2021-02-09 04:59:02,856 INFO mapreduce.Job:  map 19% reduce 0%
+2021-02-09 04:59:45,570 INFO mapreduce.Job:  map 20% reduce 0%
+2021-02-09 04:59:54,760 INFO mapreduce.Job:  map 20% reduce 1%
+2021-02-09 05:00:31,286 INFO mapreduce.Job:  map 21% reduce 1%
+2021-02-09 05:01:13,080 INFO mapreduce.Job:  map 22% reduce 1%
+2021-02-09 05:01:50,848 INFO mapreduce.Job:  map 23% reduce 1%
+2021-02-09 05:02:27,705 INFO mapreduce.Job:  map 24% reduce 1%
+2021-02-09 05:03:10,314 INFO mapreduce.Job:  map 25% reduce 1%
+2021-02-09 05:03:49,209 INFO mapreduce.Job:  map 26% reduce 1%
+2021-02-09 05:04:29,114 INFO mapreduce.Job:  map 27% reduce 1%
+2021-02-09 05:05:11,735 INFO mapreduce.Job:  map 28% reduce 1%
+2021-02-09 05:05:53,444 INFO mapreduce.Job:  map 29% reduce 1%
+2021-02-09 05:06:29,137 INFO mapreduce.Job:  map 30% reduce 1%
+2021-02-09 05:07:13,929 INFO mapreduce.Job:  map 31% reduce 1%
+2021-02-09 05:07:58,720 INFO mapreduce.Job:  map 32% reduce 1%
+2021-02-09 05:08:45,484 INFO mapreduce.Job:  map 33% reduce 1%
+2021-02-09 05:09:29,133 INFO mapreduce.Job:  map 34% reduce 1%
+2021-02-09 05:09:30,142 INFO mapreduce.Job:  map 34% reduce 2%
+2021-02-09 05:10:12,849 INFO mapreduce.Job:  map 35% reduce 2%
+2021-02-09 05:10:54,688 INFO mapreduce.Job:  map 36% reduce 2%
+2021-02-09 05:11:33,354 INFO mapreduce.Job:  map 37% reduce 2%
+2021-02-09 05:12:21,050 INFO mapreduce.Job:  map 38% reduce 2%
+2021-02-09 05:13:05,926 INFO mapreduce.Job:  map 39% reduce 2%
+2021-02-09 05:13:53,504 INFO mapreduce.Job:  map 40% reduce 2%
+2021-02-09 05:14:39,169 INFO mapreduce.Job:  map 41% reduce 2%
+2021-02-09 05:15:23,977 INFO mapreduce.Job:  map 42% reduce 2%
+2021-02-09 05:16:09,569 INFO mapreduce.Job:  map 43% reduce 2%
+2021-02-09 05:16:29,771 INFO mapreduce.Job:  map 43% reduce 3%
+2021-02-09 05:16:52,089 INFO mapreduce.Job:  map 44% reduce 3%
+2021-02-09 05:17:37,830 INFO mapreduce.Job:  map 45% reduce 3%
+2021-02-09 05:18:26,512 INFO mapreduce.Job:  map 46% reduce 3%
+2021-02-09 05:19:11,997 INFO mapreduce.Job:  map 47% reduce 3%
+2021-02-09 05:19:58,463 INFO mapreduce.Job:  map 48% reduce 3%
+2021-02-09 05:20:47,079 INFO mapreduce.Job:  map 49% reduce 3%
+2021-02-09 05:21:32,662 INFO mapreduce.Job:  map 50% reduce 3%
+2021-02-09 05:22:26,627 INFO mapreduce.Job:  map 51% reduce 3%
+2021-02-09 05:22:29,674 INFO mapreduce.Job:  map 51% reduce 4%
+2021-02-09 05:23:16,286 INFO mapreduce.Job:  map 52% reduce 4%
+2021-02-09 05:23:43,750 INFO mapreduce.Job:  map 46% reduce 3%
+2021-02-09 05:23:44,760 INFO mapreduce.Job:  map 35% reduce 3%
+2021-02-09 05:24:31,520 INFO mapreduce.Job:  map 36% reduce 3%
+2021-02-09 05:25:17,587 INFO mapreduce.Job:  map 37% reduce 3%
+2021-02-09 05:47:18,362 INFO retry.RetryInvocationHandler: java.io.EOFException: End of File Exception between local host is: "hd1/10.0.9.11"; destination host is: "hd1":8032; : java.io.EOFException; For more details see:  http://wiki.apache.org/hadoop/EOFException, while invoking ApplicationClientProtocolPBClientImpl.getApplicationReport over null. Trying to failover immediately.
+2021-02-09 05:47:19,363 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:47:20,364 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:47:21,364 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:47:22,365 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:47:23,365 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:47:24,366 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:47:25,366 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:47:26,366 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:47:27,367 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:47:28,367 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:47:28,368 INFO retry.RetryInvocationHandler: java.net.ConnectException: Call From hd1/10.0.9.11 to hd1:8032 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused, while invoking ApplicationClientProtocolPBClientImpl.getApplicationReport over null after 1 failover attempts. Trying to failover after sleeping for 18534ms.
+2021-02-09 05:47:47,903 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:47:48,903 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:47:49,904 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:47:50,904 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:47:51,905 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:47:52,905 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:47:53,906 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:47:54,906 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:47:55,906 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:47:56,907 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:47:56,907 INFO retry.RetryInvocationHandler: java.net.ConnectException: Call From hd1/10.0.9.11 to hd1:8032 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused, while invoking ApplicationClientProtocolPBClientImpl.getApplicationReport over null after 2 failover attempts. Trying to failover after sleeping for 15442ms.
+2021-02-09 05:48:13,350 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:48:14,350 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:48:15,351 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:48:16,351 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:48:17,352 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:48:18,352 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:48:19,352 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:48:20,353 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:48:21,353 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:48:22,354 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:48:22,354 INFO retry.RetryInvocationHandler: java.net.ConnectException: Call From hd1/10.0.9.11 to hd1:8032 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused, while invoking ApplicationClientProtocolPBClientImpl.getApplicationReport over null after 3 failover attempts. Trying to failover after sleeping for 25944ms.
+2021-02-09 05:48:49,299 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:48:50,300 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:48:51,300 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:48:52,300 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:48:53,301 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:48:54,301 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:48:55,302 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:48:56,302 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:48:57,302 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:48:58,303 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:48:58,303 INFO retry.RetryInvocationHandler: java.net.ConnectException: Call From hd1/10.0.9.11 to hd1:8032 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused, while invoking ApplicationClientProtocolPBClientImpl.getApplicationReport over null after 4 failover attempts. Trying to failover after sleeping for 20236ms.
+2021-02-09 05:49:19,540 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:49:20,541 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:49:21,541 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:49:22,541 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:49:23,542 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:49:24,542 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:49:25,543 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:49:26,543 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:49:27,544 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:49:28,544 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:49:28,545 INFO retry.RetryInvocationHandler: java.net.ConnectException: Call From hd1/10.0.9.11 to hd1:8032 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused, while invoking ApplicationClientProtocolPBClientImpl.getApplicationReport over null after 5 failover attempts. Trying to failover after sleeping for 32219ms.
+2021-02-09 05:50:01,764 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:50:02,765 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:50:03,765 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:50:04,766 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:50:05,766 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:50:06,767 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:50:07,767 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:50:08,767 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:50:09,768 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:50:10,768 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:50:10,769 INFO retry.RetryInvocationHandler: java.net.ConnectException: Call From hd1/10.0.9.11 to hd1:8032 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused, while invoking ApplicationClientProtocolPBClientImpl.getApplicationReport over null after 6 failover attempts. Trying to failover after sleeping for 29351ms.
+2021-02-09 05:50:41,120 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:50:42,121 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2021-02-09 05:50:43,121 INFO ipc.Client: Retrying connect to server: hd1/10.0.9.11:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)

@@ -1,0 +1,1000 @@
+   36  stop-all.sh
+   37  jps
+   38  cd
+   39  cd /htmp
+   40  ls
+   41  rm -rf ./*
+   42  ll
+   43  cd
+   44  ssh tencent3
+   45  hadoop namenode -format
+   46  start-all.sh
+   47  cd TPCx-HS-Runtime-Suite/
+   48  ls
+   49  ./TPCx-HS-master.sh -m -g 1
+   50  ./TPCx-HS-master.sh -m -g 2
+   51  ll -t|more
+   52  grep HSph@SF TPCx-HS-result-1TB.log
+   53  stop-all.sh
+   54  cd TPCx-HS-Runtime-Suite/
+   55  ls
+   56  start-0all.sh
+   57  start-all.sh
+   58  jps
+   59  ssh tencent2 jps
+   60  stop-all.sh
+   61  jps
+   62  ps -ef|grep java
+   63  kill -9 4085
+   64  ps -ef|grep java
+   65  exit
+   66  ssh tencent3
+   67  cd hadoop/etc/hadoop/
+   68  ll -t
+   69  grep tmp *.xml
+   70  vi core-site.xml
+   71  cat hdfs-site.xml
+   72  vi hdfs-site.xml
+   73  exit
+   74  ps -ef|grep java
+   75  start-all.sh
+   76  jps
+   77  ssh tencent2 jps
+   78  ssh tencent3 jps
+   79  ssh tencent4 jps
+   80  cd TPCx-HS-Runtime-Suite/
+   81  ./TPCx-HS-master.sh -m -g 1
+   82  ./TPCx-HS-master.sh -m -g 2
+   83  ./TPCx-HS-master.sh -m -g 3
+   84  ll -t|more
+   85  grep HSph@SF TPCx-HS-result-3TB.log
+   86  stop-all.sh
+   87  jps
+   88  ps ,-ef|grep java
+   89  ps -ef|grep java
+   90  jps
+   91  exit
+   92  jps
+   93  ssh tencent2 jps
+   94  ssh tencent3 jps
+   95  ssh tencent4 jps
+   96  ssh tencent 4
+   97  ssh tencent4
+   98  exit
+   99  start-all.sh
+  100  stop-all.sh
+  101  start-all.sh
+  102  cd TPCx-HS-Runtime-Suite/
+  103  ls
+  104  ./TPCx-HS-master.sh -m -g 1
+  105  ./TPCx-HS-master.sh -m -g 2
+  106  grep HSph@SF 81TB.log
+  107  grep HSph@SF *1TB.log
+  108  exit
+  109  rm -f /tmp/hadoop-yarn-server-nodemanager-3.2.1.jar
+  110  exit
+  111  scp /tmp/hadoop-yarn-server-nodemanager-3.2.1.jar tencent2:/tmp
+  112  scp /tmp/hadoop-yarn-server-nodemanager-3.2.1.jar tencent3:/tmp
+  113  scp /tmp/hadoop-yarn-server-nodemanager-3.2.1.jar tencent4:/tmp
+  114  ls
+  115  hadoop/sbin/stop-all.sh 
+  116  jps
+  117  ls /tmp/
+  118  hadoop/sbin/start-all.sh 
+  119  ls
+  120  cd TPCx-HS-Runtime-Suite/
+  121  ls
+  122  ./TPCx-HS-master.sh -h
+  123  ./TPCx-HS-master.sh -m -g 3 >& bear.log &
+  124  tail -f bear.log 
+  125  cd ../
+  126  ls
+  127  cd hadoop/
+  128  ls
+  129  cd etc/
+  130  ls
+  131  cd hadoop/
+  132  ls
+  133  vim core-site.xml
+  134  vim mapred-site.xml
+  135  ls
+  136  grep "/data/9" * -r
+  137  ls
+  138  df -h
+  139  ls
+  140  ls
+  141  cd ../
+  142  ls
+  143  cd ../
+  144  ls
+  145  cd TPCx-HS-Runtime-Suite/
+  146  ls
+  147  tail -f bear.log 
+  148  cd ../hadoop/
+  149  ls
+  150  hadoop/sbin/stop-all.sh 
+  151  sbin/stop-all.sh 
+  152  cd ../
+  153  cd hadoop/
+  154  cd ../
+  155  ls
+  156  hadoop/sbin/start-all.sh 
+  157  jps
+  158  ls
+  159  cd TPCx-HS-Runtime-Suite/
+  160  ls
+  161  ./TPCx-HS-master.sh -m -g 3 >& bear.log &
+  162  tail -f bear.log 
+  163  ls
+  164  exit
+  165  cd   TPCx-HS-Runtime-Suite/
+  166  ll -t|more
+  167  tail TPCx-HS-result-1TB.log
+  168  ll -t|more
+  169  tail bear.log
+  170  ll -t|more
+  171  numactl --hardware
+  172  exit
+  173  stop-all.sh
+  174  jps
+  175  ssh tencent4 jps
+  176  ssh tencent4 
+  177  exit
+  178  start-all.sh
+  179  jps
+  180  ssh tencent2 jps
+  181  w
+  182  ps -ef|grep java
+  183  stop-all.sh
+  184  exit
+  185  start-all.sh
+  186  jps
+  187  ssh tencent2 jps
+  188  ssh tencent3 jps
+  189  exit
+  190  stop-all.sh 
+  191  jps
+  192  start-all.sh 
+  193  ./TPCx-HS-master.sh -m -g 2
+  194  cd TPCx-HS-Runtime-Suite/
+  195  ls
+  196  ./TPCx-HS-master.sh -m -g 2
+  197  jos
+  198  jps
+  199  stop-all.sh 
+  200  jps
+  201  start-all.sh 
+  202  jps
+  203  cd TPCx-HS-Runtime-Suite/
+  204  ls
+  205  ./TPCx-HS-master.sh -m -g 2
+  206  exit
+  207  ls
+  208  cd TPCx-HS-Runtime-Suite/
+  209  ./TPCx-HS-master.sh -m -g 2
+  210  cd 
+  211  lsls
+  212  jps
+  213  exit
+  214  cd TPCx-HS-Runtime-Suite/
+  215  ls
+  216  ./TPCx-HS-master.sh -m -g 2
+  217  ps
+  218  start-all.sh 
+  219  jps
+  220  ./TPCx-HS-master.sh -m -g 2
+  221  ls
+  222  ll
+  223  ll -t
+  224  ls
+  225  exit
+  226  stop-all.sh 
+  227  start-all.sh 
+  228  ls
+  229  cd TPCx-HS-Runtime-Suite/
+  230  ls
+  231  ./TPCx-HS-master.sh -m -g 2
+  232  ls
+  233  cd /root/hadoop321src/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-server/hadoop-yarn-server-nodemanager/src/main/java/org/apache/hadoop/yarn/server/nodemanager/containermanager/linux/resources/numa
+  234  exit
+  235  stop-all.sh 
+  236  exit
+  237  ls
+  238  stop-all.sh 
+  239  jps
+  240  start-all.sh 
+  241  jps
+  242  ls
+  243  cd TPCx-HS-Runtime-Suite/
+  244  ls
+  245  ./TPCx-HS-master.sh -m -g 2
+  246  ps
+  247  kill
+  248  ls
+  249  exit
+  250  start-all.sh 
+  251  ./TPCx-HS-master.sh -m -g 2
+  252  cd TPCx-HS-Runtime-Suite/
+  253  ./TPCx-HS-master.sh -m -g 2
+  254  stop-all.sh 
+  255  start-all.sh 
+  256  jps
+  257  clear
+  258  ls
+  259  exit
+  260  stop-all.sh 
+  261  exit
+  262  cd TPCx-HS-Runtime-Suite/
+  263  ll -t|more
+  264  tail TPCx-HS-result-1TB.log
+  265  exit
+  266  ls
+  267  cd TPCx-HS-Runtime-Suite/
+  268  ./TPCx-HS-master.sh -m -g 2
+  269  jps
+  270  start-all.sh 
+  271  ls
+  272  ./TPCx-HS-master.sh -m -g 2
+  273  ls
+  274  ll -t
+  275  vi TPCx-HS-result-1TB.log
+  276  #hadoop/sbin/stop-all.sh 
+  277  ps -ef|grep TP
+  278  hadoop/sbin/stop-all.sh 
+  279  hadoop/sbin/start-all.sh 
+  280  ls
+  281  cd TPCx-HS-Runtime-Suite/
+  282  ls
+  283  ./TPCx-HS-master.sh -h
+  284  ./TPCx-HS-master.sh -m -g 3
+  285  ls
+  286  vim TPCx-HS-master.sh
+  287  vim USER_GUIDE.txt 
+  288  man clush 
+  289  vim USER_GUIDE.txt 
+  290  stop-all.sh 
+  291  exit
+  292  jps
+  293  start-all.sh 
+  294  exit
+  295  stop-all.sh 
+  296  jps
+  297  start-all.sh 
+  298  jps
+  299  clear
+  300  ls
+  301  cd TPCx-HS-Runtime-Suite/
+  302  ./TPCx-HS-master.sh -m -g 2
+  303  ps
+  304  clear
+  305  ls
+  306  cd TPCx-HS-Runtime-Suite/
+  307  ls
+  308  ./TPCx-HS-master.sh -m -g 2
+  309  cd TPCx-HS-Runtime-Suite/
+  310  ls
+  311  ll -t
+  312  vi TPCx-HS-result-1TB.log
+  313  ls
+  314  exit
+  315  stop-all.sh 
+  316  start-all.sh 
+  317  jps
+  318  clear
+  319  ls
+  320  cd TPCx-HS-Runtime-Suite/
+  321  ls
+  322  ./TPCx-HS-master.sh -m -g 2
+  323  ls
+  324  clear
+  325  ls
+  326   cd /root/hadoop321src/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-server/hadoop-yarn-server-nodemanager/src/main/java/org/apache/hadoop/yarn/server/nodemanager/containermanager/linux/resources/numa
+  327  exit
+  328  stop-all.sh 
+  329  jps
+  330  start-all.sh 
+  331  jps
+  332  cd TPCx-HS-Runtime-Suite/
+  333  ./TPCx-HS-master.sh -m -g 2
+  334  ls
+  335  cd 
+  336  ls
+  337  exit
+  338  stop-all.sh 
+  339  jps
+  340  start-all.sh 
+  341  jps
+  342  cd TPCx-HS-Runtime-Suite/
+  343  ls
+  344  ./TPCx-HS-master.sh -m -g 2
+  345  cd TPCx-HS-Runtime-Suite/
+  346  ll -t|more
+  347  tail TPCx-HS-result-3TB.log
+  348  tail TPCx-HS-result-1TB.log
+  349  w
+  350  ls -lt|more
+  351  ./TPCx-HS-master.sh -m -g 2
+  352  ll -t|more
+  353  tail TPCx-HS-result-1TB.log
+  354  jps
+  355  ./TPCx-HS-master.sh -m -g 2
+  356  grep Sph@SF  TPCx-HS-result-1TB.log TPCx-HS-result-1TB.log.20200729*
+  357  ll -t|more
+  358  tail TPCx-HS-result-1TB.log
+  359  ./TPCx-HS-master.sh -m -g 2
+  360  tail TPCx-HS-result-1TB.log
+  361  ./TPCx-HS-master.sh -m -g 2
+  362  ll p-t|more
+  363  ll -t|more
+  364  grep HSph@SF TPCx-HS-result-1TB.log
+  365  mv TPCx-HS-result-1TB.log TPCx-HS-result-1TB.log-Jar_Bear+NIC@NUMA6
+  366  ls
+  367  ./TPCx-HS-master.sh -m -g 2
+  368  grep HSph@SF TPCx-HS-result-1TB.log
+  369  mv TPCx-HS-result-1TB.log TPCx-HS-result-1TB.log-Jar_Bear+NIC@NUMA2
+  370  ./TPCx-HS-master.sh -m -g 2
+  371  grep HSph@SF TPCx-HS-result-1TB.log
+  372  mv TPCx-HS-result-1TB.log TPCx-HS-result-1TB.log-Jar_Bear+NIC@NUMA5
+  373  ./TPCx-HS-master.sh -m -g 2
+  374  mv TPCx-HS-result-1TB.log TPCx-HS-result-1TB.log-Jar_Bear+NIC@NUMA6-2nd
+  375  ll -t|more
+  376  ./TPCx-HS-master.sh -m -g 3
+  377  mv TPCx-HS-result-3TB.log TPCx-HS-result-3TB.log-Jar_Bear+NIC@NUMA6
+  378  ll -t|more
+  379  exit
+  380  ls
+  381  cd TPCx-HS-Runtime-Suite/
+  382  ll -t
+  383  ls
+  384  cd 
+  385  ls
+  386  exit
+  387  stop-all.sh 
+  388  ls
+  389  exit
+  390  jps
+  391  stop-all.sh 
+  392  start-all.sh 
+  393  cd TPCx-HS-Runtime-Suite/
+  394  ls
+  395  ./TPCx-HS-master.sh -m -g 2
+  396  ls
+  397  exit
+  398  jps
+  399  start-all.sh 
+  400  jps
+  401  clear
+  402  exit
+  403  cd TPCx-HS-Runtime-Suite/
+  404  ll -t|more
+  405  ls
+  406  ./TPCx-HS-master.sh -m -g 2
+  407  mv TPCx-HS-result-1TB.log TPCx-HS-result-1TB.log-Jar_Bear+NIC@NUMA6+NameNode
+  408  ./TPCx-HS-master.sh -m -g 3
+  409  mv TPCx-HS-result-3TB.log TPCx-HS-result-3TB.log-Jar_Bear+NIC@NUMA6+NameNode
+  410  tail TPCx-HS-result-1TB.log
+  411  ll -t|more
+  412  tail TPCx-HS-result-1TB.log.20200730133429
+  413  cd
+  414  ls
+  415  ls hadoop/
+  416  ls tmp
+  417  ls tmp/dfs
+  418  ll /htmp/dfs/
+  419  ll tmp/dfs/
+  420  exit
+  421  cd hadoop/share/
+  422  ls
+  423  ll hadoop/
+  424  cd hadoop/
+  425  ll uyarn
+  426  ll yarn/
+  427  ll yarn/test
+  428  ll ..
+  429  exit
+  430  clear
+  431  ls
+  432  cd TPCx-HS-Runtime-Suite/
+  433  ls
+  434  ./TPCx-HS-master.sh -m -g 2
+  435  ls
+  436  cd TPCx-HS-Runtime-Suite/
+  437  ls
+  438  ll -t
+  439  vi TPCx-HS-result-1TB.log
+  440  ls
+  441  exit
+  442  ls
+  443  cd TPCx-HS-Runtime-Suite/
+  444  ls
+  445  ll -t
+  446  ./TPCx-HS-master.sh -m -g 2
+  447  lscpu
+  448  exit
+  449  stop-all.sh 
+  450  ls
+  451  clear
+  452  ls
+  453  start-all.sh 
+  454  jps
+  455  cd TPCx-HS-Runtime-Suite/
+  456  ls
+  457  ./TPCx-HS-master.sh -m -g 2
+  458  exit
+  459  ls
+  460  cd TPCx-HS-Runtime-Suite/
+  461  ./TPCx-HS-master.sh -m -g 2
+  462  ls
+  463  ll -t
+  464  vi TPCx-HS-result-1TB.log.20200804145606
+  465  vi TPCx-HS-result-1TB.log.20200804143648
+  466  clear
+  467  ls
+  468  exit
+  469  cd TPCx-HS-Runtime-Suite/
+  470  ll -t
+  471  ll -t|more
+  472  tail TPCx-HS-result-1TB.log
+  473  w
+  474  ll -t|more
+  475  tail TPCx-HS-result-1TB.log
+  476  ll -t|more
+  477  tail TPCx-HS-result-1TB.log
+  478  ll -t|more
+  479  tail TPCx-HS-result-1TB.log
+  480  ll -t|more
+  481  jps
+  482  ls
+  483  ./TPCx-HS-master.sh -m -g 2
+  484  jps
+  485  stop-all.sh
+  486  jps
+  487  start-all.sh
+  488  jps
+  489  ./TPCx-HS-master.sh -m -g 2
+  490  ./TPCx-HS-master.sh -m -g 3
+  491  ls
+  492  ll -t|more
+  493  mv TPCx-HS-result-1TB.log TPCx-HS-result-1TB.log.20200804-Bear-JAR-NUMAon6
+  494  mv TPCx-HS-result-3TB.log TPCx-HS-result-3TB.log.20200804-Bear-JAR-NUMAon6
+  495  mv TPCx-HS-result-1TB.log.20200804-Bear-JAR-NUMAon6 TPCx-HS-result-1TB.log.20200804-Bear-JAR-NIC_on_NUMA6
+  496  mv TPCx-HS-result-3TB.log.20200804-Bear-JAR-NUMAon6 TPCx-HS-result-3TB.log.20200804-Bear-JAR-NIC_on_NUMA6
+  497  ll -t|more
+  498  exit
+  499  history
+  500  cd TPCx-HS-Runtime-Suite/
+  501  ll -t|more
+  502  cd ../hadoop/share/
+  503  ls
+  504  cd hadoop/
+  505  ll
+  506  cd yarn
+  507  ll -t
+  508  cd /home/bear/source/hadoop-3.2.1-src/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-server/hadoop-yarn-server-nodemanager/target/
+  509  exit
+  510  cd hadoop/etc/hadoop/
+  511  ssh tencent3
+  512  ls
+  513  ll -t
+  514  vi hdfs-site.xml
+  515  ll -t
+  516  vi mapred-site.xml
+  517  vi hdfs-site.xml
+  518  vi yarn-site.xml
+  519  grep nodemanager *.xml
+  520  vi yarn-site.xml
+  521  scp yarn-site.xml tencent2:~/hadoop/etc/hadoop/
+  522  scp yarn-site.xml tencent3:~/hadoop/etc/hadoop/
+  523  scp yarn-site.xml tencent4:~/hadoop/etc/hadoop/
+  524  ssh tencent4
+  525  ll -t
+  526  vi yarn-site.xml
+  527  grep hadoop.tmp *.xml
+  528  vi mapred-site.xml
+  529  ssh tencent2
+  530  ll -t
+  531  vi core-site.xml
+  532  ll /data
+  533  ll /htmp/
+  534  ll /htmp/nameNode/
+  535  ll /htmp/dfs
+  536  grep hadoop\.tmp *.xml
+  537  vi core-site.xml mapred-site.xml
+  538  ssh tencent2
+  539  vi core-site.xml
+  540  scp core-site.xml tencent2:~/hadoop/etc/hadoop/
+  541  scp core-site.xml tencent3:~/hadoop/etc/hadoop/
+  542  scp core-site.xml tencent4:~/hadoop/etc/hadoop/
+  543  stop-all.sh
+  544  vi core-site.xml
+  545  scp core-site.xml tencent4:~/hadoop/etc/hadoop/
+  546  scp core-site.xml tencent3:~/hadoop/etc/hadoop/
+  547  scp core-site.xml tencent2:~/hadoop/etc/hadoop/
+  548  jps
+  549  stop-all.sh
+  550  jps
+  551  start-all.sh
+  552  jps
+  553  ssh tencent4 jps
+  554  ssh tencent4
+  555  ll -t
+  556  vi core-site.xml
+  557  scp core-site.xml tencent2:~/hadoop/etc/hadoop/
+  558  scp core-site.xml tencent3:~/hadoop/etc/hadoop/
+  559  scp core-site.xml tencent4:~/hadoop/etc/hadoop/
+  560  stop-all.sh
+  561  start-all.sh
+  562  jps
+  563  ssh tencent3 jps
+  564  exit
+  565  cd hadoop/etc/hadoop/
+  566  ll -t
+  567  vi core-site.xml
+  568  ssh tencent2
+  569  ssh tencent3
+  570  vi core-site.xml
+  571  scp core-site.xml tencent2:~/hadoop/etc/hadoop/
+  572  scp core-site.xml tencent3:~/hadoop/etc/hadoop/
+  573  scp core-site.xml tencent4:~/hadoop/etc/hadoop/
+  574  w
+  575  stop-all.sh
+  576  start-all.sh
+  577  jps
+  578  cd
+  579  cd TPCx-HS-Runtime-Suite/
+  580  ls
+  581  ./TPCx-HS-master.sh -m -g 1
+  582  ./TPCx-HS-master.sh -m -g 2
+  583  ./TPCx-HS-master.sh -m -g 3
+  584  ll -t|more
+  585  mv TPCx-HS-result-1TB.log TPCx-HS-result-1TB.log.20200805-Bear-JAR-NIC_on_NUMA6-CS
+  586  mv TPCx-HS-result-3TB.log TPCx-HS-result-3TB.log.20200805-Bear-JAR-NIC_on_NUMA6-CS
+  587  stop-all.sh
+  588  jps
+  589  start-all.sh
+  590  jps
+  591  ssh tencent3 jps
+  592  ssh tencent2 jps
+  593  ssh tencent4 jps
+  594  ./TPCx-HS-master.sh -m -g 2
+  595  ./TPCx-HS-master.sh -m -g 3
+  596  ./TPCx-HS-master.sh -m -g 2
+  597  ./TPCx-HS-master.sh -m -g 3
+  598  ./TPCx-HS-master.sh -m -g 2
+  599  ./TPCx-HS-master.sh -m -g 3
+  600  exit
+  601  ls
+  602  cd TPCx-HS-Runtime-Suite/
+  603  ls
+  604  ./TPCx-HS-master.sh -m -g 3 >& bear.log &
+  605  tail -f bear.log 
+  606  cd hadoop/etc/hadoop/
+  607  ll -t|more
+  608  qmore yarn-site.xml
+  609  vi yarn-site.xml
+  610  grep mapred yarn-site.xml
+  611  ssh tencent2
+  612  exit
+  613  ls
+  614  cd TPCx-HS-Runtime-Suite/
+  615  ls
+  616  ./TPCx-HS-master.sh -m -g 3 >& XXX &
+  617  rm -f XXX 
+  618  ls
+  619  ./TPCx-HS-master.sh -m -g 3 >& XXX &
+  620  tail -f XXX 
+  621  ssh tencent2
+  622  stop-all.sh 
+  623  start-all.sh 
+  624  ls
+  625  cd TPCx-HS-Runtime-Suite/
+  626  ls
+  627  ./TPCx-HS-master.sh -m -g 2
+  628  ps
+  629  jps
+  630  start-all.sh 
+  631  jps
+  632  exit
+  633  stop-all.sh 
+  634  ls
+  635  cd TPCx-HS-Runtime-Suite/
+  636  ./TPCx-HS-master.sh -m -g 2
+  637  clear
+  638  ls
+  639  jps
+  640  ./TPCx-HS-master.sh -m -g 3
+  641  jps
+  642  start-all.sh 
+  643  jps
+  644  exit
+  645  jps
+  646  stop-all.sh 
+  647  jps
+  648  exit
+  649  cd TPCx-HS-Runtime-Suite/
+  650  ll -t|more
+  651  tail TPCx-HS-result-3TB.log
+  652  ll -t|more
+  653  tail xxx
+  654  tail XXX
+  655  ./TPCx-HS-master.sh -m -g 2
+  656  ./TPCx-HS-master.sh -m -g 3
+  657  ll -t|more
+  658  mv TPCx-HS-result-3TB.log TPCx-HS-result-3TB.log.20200806-Bear-FixNICon4
+  659  mv TPCx-HS-result-1TB.log TPCx-HS-result-1TB.log.20200806-Bear-FixNICon4
+  660  ll -t|more
+  661  tail TPCx-HS-result-3TB.log
+  662  vi TPCx-HS-result-3TB.log
+  663  stop-all.sh
+  664  jps
+  665  ssh tencent2 jps
+  666  ssh tencent4 jps
+  667  start-all.sh
+  668  exit
+  669  cd TPCx-HS-Runtime-Suite/
+  670  ll pt|more
+  671  ll -t|more
+  672  tail -f TPCx-HS-result-3TB.log
+  673  cat TPCx-HS-result-3TB.log
+  674  tail -f TPCx-HS-result-3TB.log
+  675  stop-all.sh
+  676  exit
+  677  ls
+  678  cd TPCx-HS-Runtime-Suite/
+  679  ls
+  680  ./TPCx-HS-master.sh -m -g 3
+  681  cd hadoop/etc/hadoop/
+  682  ll -t
+  683  vi hdfs-site.xml
+  684  ll -t
+  685  vi mapred-site.xml
+  686  vi core-site.xml
+  687  vi yarn-site.xml
+  688  grep 96 *.xml
+  689  grep 32 *.xml
+  690  vi capacity-scheduler.xml
+  691  mv capacity-scheduler.xml capacity-scheduler.xml-2P
+  692  cp capacity-scheduler.xml-2P capacity-scheduler.xml-1P
+  693  vi capacity-scheduler.xml-1P 
+  694  ll -t
+  695  mv yarn-site.xml yarn-site.xml-2P
+  696  cp yarn-site.xml-2P yarn-site.xml-1P
+  697  vi yarn-site.xml-1P
+  698  ln -s ./capacity-scheduler.xml-1P capacity-scheduler.xml
+  699  ll -t
+  700  ln -s yarn-site.xml-1P yarn-site.xml
+  701  ll -t
+  702  scp yarn-site.xml-*P capacity-scheduler.xml-*P tencent2:~/hadoop/etc/hadoop/
+  703  scp yarn-site.xml-*P capacity-scheduler.xml-*P tencent3:~/hadoop/etc/hadoop/
+  704  scp yarn-site.xml-*P capacity-scheduler.xml-*P tencent4:~/hadoop/etc/hadoop/
+  705  ssh tencent2
+  706  ssh tencent3
+  707  ssh tencent4
+  708  cd 
+  709  cd TPCx-HS-Runtime-Suite/
+  710  start-all.sh
+  711  ls
+  712  ./TPCx-HS-master.sh -m -g 1
+  713  ./TPCx-HS-master.sh -m -g 2
+  714  exit
+  715  cd TPCx-HS-Runtime-Suite/
+  716  ll -t|more
+  717  exit
+  718  cd TPCx-HS-Runtime-Suite
+  719  ls
+  720  ./TPCx-HS-master.sh -m -g 2
+  721  ll -t
+  722  vi TPCx-HS-result-1TB.log
+  723  clear
+  724  cd ..
+  725  ls
+  726  cd -
+  727  ls
+  728  ./TPCx-HS-master.sh -m -g 3
+  729  clear
+  730  ls
+  731  jps
+  732  ./TPCx-HS-master.sh -m -g 2
+  733  ps
+  734  jps
+  735  clear
+  736  exit
+  737  stop-all.sh 
+  738  jps
+  739  start-all.sh 
+  740  cd TPCx-HS-Runtime-Suite/
+  741  stop-all.sh
+  742  jps
+  743  start-all.sh
+  744  jps
+  745  ssh tencent2 jps
+  746  ssh tencent3 jps
+  747  ssh tencent4 jps
+  748  ll -t|more
+  749  tail TPCx-HS-result-3TB.log
+  750  mv TPCx-HS-result-3TB.log TPCx-HS-result-3TB.log.20200807-1P-NIC@NUMA6
+  751  mv TPCx-HS-result-1TB.log TPCx-HS-result-1TB.log.20200807-1P-NIC@NUMA6
+  752  tail TPCx-HS-result-1TB.log.20200807-1P-NIC@NUMA6
+  753  ls
+  754  mv TPCx-HS-result-3TB.log.20200807-1P-NIC@NUMA6 TPCx-HS-result-3TB.log.20200807-1P-NICatNUMA6
+  755  mv TPCx-HS-result-3TB.log.20200807-3P-NIC@NUMA6 TPCx-HS-result-3TB.log.20200807-3P-NICatNUMA6
+  756  ll -t|more
+  757  mv TPCx-HS-result-1TB.log.20200807-1P-NIC@NUMA6 TPCx-HS-result-1TB.log.20200807-1P-NICatNUMA6
+  758  ll -t|more
+  759  tail TPCx-HS-result-1TB.log.20200807-1P-NICatNUMA6
+  760  grep '(HSph@SF)' TPCx-HS-result-1TB.log.20200807-1P-NICatNUMA6
+  761  grep '(HSph@SF)' TPCx-HS-result-1TB.log
+  762  grep '(HSph@SF)' TPCx-HS-result-3TB.log.20200807-1P-NICatNUMA6
+  763  tail -f TPCx-HS-result-3TB.log
+  764  grep '(HSph@SF)' TPCx-HS-result-3TB.log
+  765  mv TPCx-HS-result-3TB.log TPCx-HS-result-3TB.log.20200807-1P-NICatNUMA2
+  766  mv TPCx-HS-result-1TB.log TPCx-HS-result-1TB.log.20200807-1P-NICatNUMA2
+  767  exit
+  768  ls
+  769  cd TPCx-HS-Runtime-Suite/
+  770  ls
+  771  ./TPCx-HS-master.sh -m -g 2
+  772  ./TPCx-HS-master.sh -m -g 3
+  773  ls
+  774  stop-all.sh 
+  775  start-all.sh 
+  776  exit
+  777  ls
+  778  cd TPCx-HS-Runtime-Suite/
+  779  ls
+  780  ./TPCx-HS-master.sh -m -g 2
+  781  ps
+  782  start-all.sh 
+  783  jps
+  784  clear
+  785  exit
+  786  ls
+  787  exit
+  788  man clush
+  789  clear
+  790  ls
+  791  cd TPCx-HS-Runtime-Suite/
+  792  ./TPCx-HS-master.sh -m -g 2
+  793  exit
+  794  stop-all.sh 
+  795  exit
+  796  stop-all.sh 
+  797  jps
+  798  stop-all.sh 
+  799  jps
+  800  clear
+  801  ls
+  802  cd TPCx-HS-Runtime-Suite/
+  803  ls
+  804  start-all.sh 
+  805  jps
+  806  ./TPCx-HS-master.sh -m -g 2
+  807  ls
+  808  exit
+  809  jps
+  810  start-all.sh 
+  811  exit
+  812  ls
+  813  cd TPCx-HS-Runtime-Suite/
+  814  ls
+  815  ./TPCx-HS-master.sh -m -g 3
+  816  ./TPCx-HS-master.sh -m -g 2
+  817  cd TPCx-HS-Runtime-Suite/
+  818  ll -t|more
+  819  tail TPCx-HS-result-1TB.log
+  820  vi TPCx-HS-result-1TB.log
+  821  cat TPCx-HS-result-3TB.log
+  822  grep 'HSph@SF' *.log
+  823  mv TPCx-HS-result-1TB.log TPCx-HS-result-1TB.log.20200810-Hadoop3.2.1
+  824  mv TPCx-HS-result-3TB.log TPCx-HS-result-3TB.log.20200810-Hadoop3.2.1
+  825  ll -t|more
+  826  grep 'HSph@SF' *-1P-NICatNUMA2
+  827  grep 'HSph@SF' *-1P-NICatNUMA6
+  828  tail TPCx-HS-result-3TB.log.20200807122846
+  829  tail TPCx-HS-result-3TB.log.20200806164750
+  830  tail TPCx-HS-result-1TB.log.20200806185416
+  831  tail TPCx-HS-result-1TB.log.20200806134509
+  832  grep 'HSph@SF' *Bear-FixNICon4
+  833  jps
+  834  exit
+  835  stop-all.sh 
+  836  ls
+  837  cd TPCx-HS-Runtime-Suite/
+  838  jps
+  839  start-all.sh 
+  840  jps
+  841  ./TPCx-HS-master.sh -m -g 2
+  842  cd 
+  843  ls
+  844  exit
+  845  stop-all.sh 
+  846  exit
+  847  ls
+  848  cd TPCx-HS-Runtime-Suite/
+  849  ls
+  850  ./TPCx-HS-master.sh -m -g 2
+  851  ls
+  852  ll
+  853  ll -t
+  854  vi TPCx-HS-result-1TB.log
+  855  stop-all.sh 
+  856  jps
+  857  start-all.sh 
+  858  jps
+  859  ls
+  860  ./TPCx-HS-master.sh -m -g 2
+  861  ll -t
+  862  vi TPCx-HS-result-1TB.log
+  863  exit
+  864  cd TPCx-HS-Runtime-Suite/
+  865  ls
+  866  ll TPCx-HS-result-1TB.log
+  867  vi  TPCx-HS-result-1TB.log
+  868  exit
+  869  ls
+  870  cd TPCx-HS-Runtime-Suite/
+  871  ls
+  872  ./TPCx-HS-master.sh -m -g 2
+  873  hadoop -version
+  874  hadoop --version
+  875  hadoop -v
+  876  hadoop version
+  877  ls
+  878  vi VERSION.txt
+  879  exit
+  880  cd hadoop/etc/hadoop/
+  881  ll -t|more
+  882  diff yarn-site.xml-1P yarn-site.xml-2P
+  883  vi yarn-site.xml
+  884  diff capacity-scheduler.xml-1P capacity-scheduler.xml-2P
+  885  vi capacity-scheduler.xml-1P
+  886  ll -t
+  887  ls
+  888  mkdir Backup 
+  889  mv 20200707-updated.tar hdfs-site.xml-20200624 core-site.xml-20200624 core-site.xml.ORIG hadoop-env.sh.ORIG mapred-site.xml-20200628 mapred-site.xml-20200635 mapred-site.xml.ORIG yarn-site.xml-20200625 yarn-site.xml-20200628 yarn-site.xml-20200707 yarn-site.xml.ORIG Backup
+  890  ls
+  891  mv capacity-scheduler.xml-20200625 Backup/
+  892  mv capacity-scheduler.xml.SAVED Backup/
+  893  ls
+  894  mv hdfs-site.xml.ORIG workers.ORIG Backup/
+  895  ls Backup/
+  896  ls
+  897  cat workers 
+  898  ln -s capacity-scheduler.xml-2P capacity-scheduler.xml
+  899  rm capacity-scheduler.xml
+  900  ln -s capacity-scheduler.xml-2P capacity-scheduler.xml
+  901  ll
+  902  rm yarn-site.xml 
+  903  ln  -s yarn-site.xml-2P yarn-site.xml
+  904  ll
+  905  ssh tencent2
+  906  ssh tencent3
+  907  ssh tencent4
+  908  ssh tencent2 "ls -l ~/hadoop/etc/hadoop/"
+  909  ssh tencent3 "ls -l ~/hadoop/etc/hadoop/"
+  910  ssh tencent4 "ls -l ~/hadoop/etc/hadoop/"
+  911  jps
+  912  start-all.sh
+  913  jps
+  914  ssh tencent2 jps
+  915  ssh tencent3 jps
+  916  ssh tencent4 jps
+  917  cat ~/.bashrc
+  918  ls
+  919  ls -C 1
+  920  ls -c 1
+  921  ls -?
+  922  ls --help
+  923  ls -1
+  924  cd
+  925  cd TPCx-HS-Runtime-Suite/
+  926  ll -t|more
+  927  tail TPCx-HS-result-1TB.log
+  928  cd ../hadoop/etc/hadoop/
+  929  ll -t
+  930  tar cvf - . > /tmp/Hadoop-COnfig.tar
+  931  pwd
+  932  grep behind *
+  933  grep dfs *
+  934  grep client *
+  935  ll -t ~/TPCx-HS-Runtime-Suite/
+  936  tail TPCx-HS-result-1TB.log
+  937  tail ~/TPCx-HS-Runtime-Suite/TPCx-HS-result-1TB.log
+  938  exit
+  939  stop-all.sh 
+  940  jps
+  941  start-all.sh 
+  942  jps
+  943  cd TPCx-HS-Runtime-Suite/
+  944  ./TPCx-HS-master.sh -m -g 2
+  945  ls
+  946  clear
+  947  ls
+  948  ll -t
+  949  vi TPCx-HS-result-1TB.log.20200811104225
+  950  vi TPCx-HS-result-1TB.log.20200810135327
+  951  ./TPCx-HS-master.sh -m -g 2
+  952  cd TPCx-HS-Runtime-Suite/
+  953  ./TPCx-HS-master.sh -m -g 2
+  954  ./TPCx-HS-master.sh -m -g 3
+  955  ls 
+  956  vi TPCx-HS-result-3TB.log
+  957  cd hadoop/etc/hadoop/
+  958  ll -t|more
+  959  cat yarn-site.xml
+  960  cat capacity-scheduler.xml
+  961  cat core-site.xml 
+  962  cat hdfs-site.xml 
+  963  cat capacity-scheduler.xml
+  964  vi capacity-scheduler.xml
+  965  ll -t|more
+  966  vi capacity-scheduler.xml-1P
+  967  cat mapred-site.xml 
+  968  cat container-executor.cfg 
+  969  cat log4j.properties 
+  970  cat hadoop-env.cmd 
+  971  cat hadoop-env.sh
+  972  cat workers 
+  973  exit
+  974  cd /home/hadoop/
+  975  ls
+  976  cd hadoop/
+  977  ls
+  978  cd etc/
+  979  ls
+  980  cd hadoop/
+  981  ls
+  982  vim core-site.xml 
+  983  pwd
+  984  vim hdfs-site.xml 
+  985  df -h
+  986  ls
+  987  cd
+  988  cd hadoop/
+  989  ls
+  990  cd etc/hadoop/
+  991  ls
+  992  vim core-site.xml 
+  993  vim hdfs-site.xml 
+  994  vim core-site.xml 
+  995  ls
+  996  vim hadoop-env.sh 
+  997  ls
+  998  cd ..
+  999  ls
+ 1000  su hadoop
+ 1001  cd
+ 1002  ls
+ 1003  cd hadoop/
+ 1004  ls
+ 1005  cd etc/
+ 1006  ls
+ 1007  cd hadoop/
+ 1008  ls
+ 1009  vim hdfs-site.xml 
+ 1010  vim workers 
+ 1011  cd ..
+ 1012  ls
+ 1013  cd ..
+ 1014  ls
+ 1015  cd sbin/
+ 1016  ls
+ 1017  ./start-all.sh 
+ 1018  jps
+ 1019  ./stop-all.sh
+ 1020  cd 
+ 1021  ls
+ 1022  cd hadoop/
+ 1023  ls
+ 1024  cd etc/
+ 1025  ls
+ 1026  cd hadoop/
+ 1027  ls
+ 1028  cat workers 
+ 1029  ls
+ 1030  cd
+ 1031  ls
+ 1032  cd TPCx-HS-Runtime-Suite/
+ 1033  ls
+ 1034  history 
+ 1035  history >history.log

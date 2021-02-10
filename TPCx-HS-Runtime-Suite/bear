@@ -1,0 +1,23 @@
+
+ContainerScheduler.java
+    serviceInit |"Resource handler chain enabled = true"
+    serviceInit |"Bootstrapping resource handler chain"
+
+        ResourceHandlerModule.getConfiguredResourceHandlerChain(conf, context)
+            initializeConfiguredResourceHandlerChain(conf, nmContext)
+                initNetworkResourceHandler |"Using traffic control bandwidth handler"
+                initDiskResourceHandler
+                initMemoryResourceHandler
+                initCGroupsCpuResourceHandler
+                getNumaResourceHandler(conf, nmContext)
+                     NumaResourceHandlerImpl(conf, nmContext) |"NUMA resources allocation isenabled, initializing NUMA resources allocator."
+
+                addHandlersFromConfiguredResourcePlugins(handlerList, conf, nmContext) |"List of plugins of ResourcePluginManager: {}"    
+                    * plugin.createResourceHandler(nmContext,
+                                                 getInitializedCGroupsHandler(conf),
+                                                 PrivilegedOperationExecutor.getInstance(conf)))
+        
+
+        resourceHandlerChain.bootstrap(conf) |"NUMA resources allocation is enabled, initializing NUMA resources allocator." 
+                numaResourceAllocator.init(configuration) |"Reading NUMA topology using 'numactl --hardware' command."
+
